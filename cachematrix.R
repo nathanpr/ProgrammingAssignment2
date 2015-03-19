@@ -42,7 +42,7 @@ cacheSolve <- function(x, ...) {
   invMatrix <- solve(val)
   x$setInvMatrix(val)
   
-  val
+  invMatrix
   
   
 }

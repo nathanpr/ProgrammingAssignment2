@@ -38,7 +38,7 @@ cacheSolve <- function(x, ...) {
   
   #check cache hit
   if(!is.null(invMatrix)) {
-    print("get cached matrix")
+    message("getting cached matrix")
     return(invMatrix)
   }
   
